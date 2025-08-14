@@ -198,18 +198,3 @@ chmod +x aihubshell
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스로 배포됩니다 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-## 지원
-
-- 🐛 [이슈 신고](https://github.com/az5app/aihubshell/issues)
-- 📖 [문서](https://github.com/az5app/aihubshell/wiki)
-- 💬 [토론](https://github.com/az5app/aihubshell/discussions)
-
-## 감사의 말
-
-- 데이터셋 플랫폼을 제공해주신 [AIHub Korea](https://aihub.or.kr)
-- 영감과 지원을 제공한 오픈소스 커뮤니티
-
----
-
-AI 연구 커뮤니티를 위해 ❤️로 만들었습니다

@@ -198,18 +198,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- 🐛 [Report Issues](https://github.com/az5app/aihubshell/issues)
-- 📖 [Documentation](https://github.com/az5app/aihubshell/wiki)
-- 💬 [Discussions](https://github.com/az5app/aihubshell/discussions)
-
-## Acknowledgments
-
-- [AIHub Korea](https://aihub.or.kr) for providing the dataset platform
-- The open-source community for inspiration and support
-
----
-
-Made with ❤️ for the AI research community
