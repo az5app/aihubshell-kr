@@ -30,12 +30,12 @@ if [ -z "$1" ]; then
 fi
 
 VERSION="$1"
-VERSION_DIR="${VERSIONS_DIR}/v${VERSION}"
-RELEASE_NAME="aihubshell-v${VERSION}"
+VERSION_DIR="${VERSIONS_DIR}/${VERSION}"
+RELEASE_NAME="aihubshell-${VERSION}"
 
 # Check if version exists
 if [ ! -d "$VERSION_DIR" ]; then
-    echo -e "${RED}Error: Version v${VERSION} not found in ${VERSIONS_DIR}${NC}"
+    echo -e "${RED}Error: Version ${VERSION} not found in ${VERSIONS_DIR}${NC}"
     echo "Available versions:"
     ls "$VERSIONS_DIR" | sort -V
     exit 1
@@ -70,10 +70,10 @@ echo "3. Update the version in ../homebrew-tap/Formula/aihubshell.rb to: ${VERSI
 echo "4. Commit and push changes to homebrew-tap repository"
 echo ""
 echo "GitHub Release URL should be:"
-echo "https://github.com/az5app/aihubshell-kr/releases/tag/v${VERSION}"
+echo "https://github.com/az5app/aihubshell-kr/releases/tag/${VERSION}"
 echo ""
 echo -e "${BLUE}GitHub Release Creation Command:${NC}"
-echo "gh release create v${VERSION} ${RELEASE_NAME}.tar.gz --title \"AIHub Shell v${VERSION}\" --notes \"Release version ${VERSION} of AIHub Shell\""
+echo "gh release create ${VERSION} ${RELEASE_NAME}.tar.gz --title \"AIHub Shell ${VERSION}\" --notes \"Release version ${VERSION} of AIHub Shell\""
 
 # Clean up
 rm -rf "${RELEASE_NAME}"
